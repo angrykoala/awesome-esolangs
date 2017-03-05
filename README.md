@@ -5,8 +5,8 @@ Awesome Esoteric
 >A curated list of awesome Esoteric languages, resources and shiny things.
 
 ## Contents
-* [Languages](#Languages)
-* [Resources](#Resources)
+* [Languages](#languages)
+* [Resources](#resources)
 
 
 ## Languages
