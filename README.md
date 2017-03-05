@@ -16,6 +16,7 @@
 * [JSFuck](https://github.com/aemkei/jsfuck) - An esoteric and educational programming style based on the atomic parts of JavaScript.
 * [LolCode](http://lolcode.org) - A language with keywords based on the lolcat meme expressions.
 * [Malbolge](http://www.lscheffer.com/malbolge.shtml) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
+* [Ook!](http://www.dangermouse.net/esoteric/ook.html) - A brainfuck-based language, where the commands are orangutan words
 * [Piet](http://www.dangermouse.net/esoteric/piet.html) -  An esoteric language in which programs look like abstract paintings using colors as code. Named after Piet Mondrian.
 * [Shakespeare](http://shakespearelang.sourceforge.net) - A programming language where the programs appear to be Shakespearean plays.
 * [Suzy](https://github.com/gvx/suzy) - A 3D language inspired by Befunge.
