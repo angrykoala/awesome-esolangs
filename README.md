@@ -13,6 +13,7 @@
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - A minimalist programming language using only 8 single-character commands.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - A programming language in which programs look like cooking recipes.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - An unary-based language, where the code is a single number.
+* [False](http://strlen.com/false-language) - A heavily offuscated language with a minimal implementation.
 * [JSFuck](https://github.com/aemkei/jsfuck) - An esoteric and educational programming style based on the atomic parts of JavaScript.
 * [LolCode](http://lolcode.org) - A language with keywords based on the lolcat meme expressions.
 * [Malbolge](http://www.lscheffer.com/malbolge.shtml) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
