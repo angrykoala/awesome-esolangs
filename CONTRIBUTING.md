@@ -13,6 +13,7 @@ Please ensure your pull request adheres to the following guidelines:
 * The pull request should have a useful title and include a description on why the language or resource is awesome.
 * Any addition MUST have a link.
 * The link MUST be available (dead links will be removed or changed).
+* Check the markdown syntax is correct and properly displayed in GitHub.
 
 ## Languages
 * Suggested languages should be documented, even if the implementation doesn't exists.
