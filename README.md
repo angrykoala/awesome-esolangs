@@ -28,6 +28,7 @@
 
 ## Resources
 
+* [DM's Esoteric Programming Languages](http://www.dangermouse.net/esoteric) - A list of esoteric languages and algorithms written by dangermouse. 
 * [Esofiles](https://github.com/graue/esofiles) - The Esoteric Files Archive, an archive of implementations of esoteric programming languages and examples.
 * [Esolang](https://esolangs.org) - A wiki for esoteric programming languages and related Resources.
 * [Progopedia](http://progopedia.com/paradigm/esoteric) - A list of programming languages.
