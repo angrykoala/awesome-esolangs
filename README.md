@@ -24,6 +24,7 @@
 * [Suzy](https://github.com/gvx/suzy) - A 3D language inspired by Befunge.
 * [Thue](https://github.com/jcolag/Thue) - A _matrioshka_ language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [Unary](https://esolangs.org/wiki/Unary) - A brainfuck-based language where all the commands are 0.
+* [Velato](http://velato.net) - A language that uses MIDI files as source, programs are defined by the pitch and order of notes.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - A language that does things whenever it wants.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - A programming language that uses only white-characters (space, tabs and newlines).
 
