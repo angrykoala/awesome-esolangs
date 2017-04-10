@@ -1,6 +1,6 @@
 # Awesome Esoteric [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
->A curated list of awesome Esoteric languages, resources and shiny things.
+> Curated list of awesome Esoteric languages and resources.
 
 ## Contents
 * [Languages](#languages)
@@ -23,7 +23,7 @@
 * [reMorse](http://esolangs.org/wiki/reMorse) - Morse-styled programming language.
 * [Piet](http://www.dangermouse.net/esoteric/piet.html) -  Language in which programs look like abstract paintings using colors as code. Named after Piet Mondrian.
 * [Shakespeare](http://shakespearelang.sourceforge.net) - Programming language where the programs appear to be Shakespearean plays.
-* [Suzy](https://github.com/gvx/suzy) - A 3D language inspired by Befunge.
+* [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
 * [Thue](https://github.com/jcolag/Thue) - _Matrioshka_ language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [Unary](https://esolangs.org/wiki/Unary) - Brainfuck-based language where all the commands are 0.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
