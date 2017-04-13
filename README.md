@@ -1,6 +1,10 @@
 # Awesome Esoteric [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> Curated list of awesome Esoteric languages and resources.
+Curated list of awesome esoteric languages and resources.
+
+> An esoteric programming language, or esolang, is a computer programming language designed to experiment with weird ideas, to be hard to program in, or as a joke, rather than for practical use.   
+***esolang.org***
+
 
 ## Contents
 * [Languages](#languages)
@@ -43,3 +47,5 @@
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
+
+Content is available under CC0 public domain dedication.
