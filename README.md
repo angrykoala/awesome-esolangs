@@ -46,7 +46,8 @@ Curated list of awesome esoteric languages and resources.
 
 ## Community
 
-* [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs
+* [Freenode IRC Channel](http://webchat.freenode.net/?channels=esoteric&uio=d4) - The #esoteric IRC channel on freenode.
+* [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs.
 
 ## License
 
