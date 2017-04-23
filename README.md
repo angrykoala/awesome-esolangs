@@ -9,9 +9,10 @@ Curated list of awesome esoteric languages and resources.
 ## Contents
 * [Languages](#languages)
 * [Resources](#resources)
+* [Community](#community)
 
 
-## Programming Languages
+## Languages
 
 * [Ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
@@ -43,6 +44,9 @@ Curated list of awesome esoteric languages and resources.
 * [Rosettacode](http://rosettacode.org/wiki/Rosetta_Code) - Provides solutions in different programming languages, including esoteric languages.
 * [Wikipedia/Esoteric programming languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) - Wikipedia list of esoteric languages.
 
+## Community
+
+* [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs
 
 ## License
 
