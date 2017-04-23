@@ -19,6 +19,7 @@ Curated list of awesome esoteric languages and resources.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
+* [Dots](https://github.com/josconno/dots) - A turing-complete programming language with only one symbol: ".".
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
@@ -34,7 +35,6 @@ Curated list of awesome esoteric languages and resources.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - Use only white-characters (space, tabs and newlines).
-* [Dots](https://github.com/josconno/dots) - A turing-complete programming language with only one symbol: ".".
 
 ## Resources
 
