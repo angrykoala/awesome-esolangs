@@ -9,6 +9,7 @@ Curated list of awesome esoteric languages and resources.
 ## Contents
 * [Languages](#languages)
 * [Resources](#resources)
+* [Articles](#articles)
 * [Community](#community)
 
 
@@ -40,9 +41,13 @@ Curated list of awesome esoteric languages and resources.
 * [DM's Esoteric Programming Languages](http://www.dangermouse.net/esoteric) - List of esoteric languages and algorithms written by dangermouse. 
 * [Esofiles](https://github.com/graue/esofiles) - The Esoteric Files Archive, an archive of implementations of esoteric programming languages and examples.
 * [Esolang](https://esolangs.org) - Wiki of esoteric programming languages and related Resources.
-* [Progopedia](http://progopedia.com/paradigm/esoteric) - List of programming languages.
-* [Rosettacode](http://rosettacode.org/wiki/Rosetta_Code) - Provides solutions in different programming languages, including esoteric languages.
+* [Progopedia](http://progopedia.com/paradigm/esoteric) - List of esoteric languages.
+* [Rosettacode](http://rosettacode.org/wiki/Rosetta_Code) - Provides examples in different languages, including esoteric languages.
 * [Wikipedia/Esoteric programming languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) - Wikipedia list of esoteric languages.
+
+## Articles
+
+* [Let's Build a Basic Interpreter (Ruslan's Blog)](https://ruslanspivak.com/lsbasi-part1) - Series of articles explaining the basics of compilers and interpreters and how to build one.
 
 ## Community
 
