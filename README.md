@@ -60,4 +60,8 @@ Curated list of awesome esoteric languages and resources.
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
-Content is available under CC0 public domain dedication.
+The content of this list is available under CC0 public domain dedication.
+
+Logo is used by permission of [David Morgan-Mar](http://www.dangermouse.net/esoteric/piet/samples.html)
+
+
