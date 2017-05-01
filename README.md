@@ -1,6 +1,9 @@
-#Awesome Esoteric [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Esoteric [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
->A curated list of awesome Esoteric languages, resources and shiny things.
+> A curated list of awesome Esoteric languages and resources.
+
+![Hello World in Piet](logo_piet.png)   
+_Hello World in Piet_   
 
 ## Contents
 * [Languages](#languages)
@@ -9,7 +12,7 @@
 
 ## Languages
 
-* [Ajsone](https://www.quaxio.com/ajsone) - A programming language defined completely in JSON.
+* [Ajsone](https://www.quaxio.com/ajsone) - A programming language fully defined in JSON.
 * [Befunge](https://esolangs.org/wiki/Befunge) - A two-dimensional programming language.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - A minimalist programming language using only 8 single-character commands.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - A programming language in which programs look like cooking recipes.
