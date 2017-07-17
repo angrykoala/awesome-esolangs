@@ -20,7 +20,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
-* [Chicken](http://torso.me/chicken) - Only 1 valid symbol: 'chicken'
+* [Chicken](http://torso.me/chicken) - Only 1 valid symbol: 'chicken'.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
 * [Dots](https://github.com/josconno/dots) - A turing-complete language with only one symbol: ".".
