@@ -38,6 +38,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - Use only white-characters (space, tabs and newlines).
+* [Z](https://esolangs.org/wiki/Z) - Use only the letter z.
 
 ## Resources
 
