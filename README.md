@@ -25,7 +25,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
 * [Dots](https://github.com/josconno/dots) - A turing-complete language with only one symbol: ".".
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
-* [INTERCAL](http://www.catb.org/~esr/intercal/) - A compiling language that has nothing in common with other languages.
+* [INTERCAL](http://www.catb.org/~esr/intercal/) - A parody language intended to be completely different from other languages.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
 * [LolCode](http://lolcode.org) - Language with keywords based on the lolcat meme expressions.
 * [Malbolge](http://www.lscheffer.com/malbolge.shtml) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
