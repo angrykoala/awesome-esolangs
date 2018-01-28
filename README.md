@@ -24,7 +24,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
 * [Dots](https://github.com/josconno/dots) - A turing-complete language with only one symbol: ".".
-* [Emojicode](http://www.emojicode.org/) - Full-blown programming language consisting of emojis.
+* [Emojicode](http://www.emojicode.org) - Full-blown programming language consisting of emojis.
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
 * [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
 * [INTERCAL](http://www.catb.org/~esr/intercal/) - Parody language intended to be completely different from other languages.
