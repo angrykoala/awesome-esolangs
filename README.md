@@ -52,7 +52,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Progopedia](http://progopedia.com/paradigm/esoteric) - List of esoteric languages.
 * [Rosettacode](http://rosettacode.org/wiki/Rosetta_Code) - Provides examples in different languages, including esoteric languages.
 * [Wikipedia/Esoteric programming languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) - Wikipedia list of esoteric languages.
-* [On the Turing Completeness Of MS PowerPoint](http://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf) - Turing Machine on PowerPoint
+* [On the Turing Completeness Of MS PowerPoint](http://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf) - Turing Machine on PowerPoint.
 
 ## Articles
 
