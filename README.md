@@ -35,6 +35,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Omgrofl](https://esolangs.org/wiki/Omgrofl) - Syntax resembling Internet slang.
 * [Ook!](http://www.dangermouse.net/esoteric/ook.html) - Brainfuck-based language, where the commands are orangutan words.
 * [reMorse](http://esolangs.org/wiki/reMorse) - Morse-styled language.
+* [Rockstar](https://github.com/dylanbeattie/rockstar) - Designed for creating computer programs that are also song lyrics.
 * [Piet](http://www.dangermouse.net/esoteric/piet.html) -  Language in which programs look like abstract paintings using colors as code. Named after Piet Mondrian.
 * [Shakespeare](http://shakespearelang.sourceforge.net) - Language where the code appear to be Shakespearean plays.
 * [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
