@@ -1,11 +1,13 @@
-# Awesome Esolangs [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Esolangs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <img src="logo_piet.png" align="right">
 
 Curated list of awesome esoteric programming languages and resources.
 
-> "An esoteric programming language, or esolang, is a computer programming language designed to experiment with weird ideas, to be hard to program in, or as a joke, rather than for practical use."   
-***esolang.org***
+
+> "An esoteric programming language, or esolang, is a computer programming language designed to experiment with weird ideas, to be hard to program in, or as a joke, rather than for practical use."  
+> ***esolang.org***
+
 
 ## Contents
 * [Languages](#languages)
@@ -20,7 +22,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
-* [Chicken](http://torso.me/chicken) - Only 1 valid symbol: 'chicken'.
+* [Chicken](https://esolangs.org/wiki/Chicken) - Only 1 valid symbol: 'chicken'.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
 * [Dots](https://github.com/josconno/dots) - A turing-complete language with only one symbol: ".".
@@ -39,7 +41,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Piet](http://www.dangermouse.net/esoteric/piet.html) -  Language in which programs look like abstract paintings using colors as code. Named after Piet Mondrian.
 * [Shakespeare](http://shakespearelang.sourceforge.net) - Language where the code appear to be Shakespearean plays.
 * [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
-* [Thue](https://github.com/jcolag/Thue) - _Matrioshka_ language based on nondeterministic string rewriting of a semi-Thue grammar.
+* [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [Unary](https://esolangs.org/wiki/Unary) - Brainfuck-based language where all the commands are 0.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
@@ -48,10 +50,9 @@ Curated list of awesome esoteric programming languages and resources.
 
 ## Resources
 
-* [DM's Esoteric Programming Languages](http://www.dangermouse.net/esoteric) - List of esoteric languages and algorithms written by dangermouse. 
+* [DM's Esoteric Programming Languages](http://www.dangermouse.net/esoteric) - List of esoteric languages and algorithms written by dangermouse.
 * [Esofiles](https://github.com/graue/esofiles) - The Esoteric Files Archive, an archive of implementations of esoteric programming languages and examples.
 * [Esolang](https://esolangs.org) - Wiki of esoteric programming languages and related Resources.
-* [Progopedia](http://progopedia.com/paradigm/esoteric) - List of esoteric languages.
 * [Rosettacode](http://rosettacode.org/wiki/Rosetta_Code) - Provides examples in different languages, including esoteric languages.
 * [Wikipedia/Esoteric programming languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) - Wikipedia list of esoteric languages.
 * [On the Turing Completeness Of MS PowerPoint](http://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf) - Turing Machine on PowerPoint.
@@ -73,5 +74,3 @@ Curated list of awesome esoteric programming languages and resources.
 The content of this list is available under CC0 public domain dedication.
 
 Logo is used by permission of [David Morgan-Mar](http://www.dangermouse.net/esoteric/piet/samples.html)
-
-
