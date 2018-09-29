@@ -11,7 +11,8 @@ Please ensure your pull request adheres to the following guidelines:
 * Start the description with a capital and end with a full stop/period.
 * Check your spelling and grammar.
 * The pull request should have a useful title and include a description on why the language or resource is awesome.
-* Any addition MUST have a link.
+* Any addition MUST have a link. The link should not have trailing slash or unnecessary characters.
+* The link must be a direct link, and not shortened, proxy or redirection.
 * The link MUST be available (dead links will be removed or changed).
 * Check the markdown syntax is correct and properly displayed in GitHub.
 
@@ -22,7 +23,11 @@ Please ensure your pull request adheres to the following guidelines:
 * All links should refer to the original or most relevant web/implementation of the language.
 * The link must refer to the original author, documentation or resource of the language if possible.
 
-## Resources
+## Resources and articles
 * Resources must be related to esoteric languages.
+
+## Community
+* Communities must be active and specific to the topic of this list
+
 
 Thank you for your suggestions!
