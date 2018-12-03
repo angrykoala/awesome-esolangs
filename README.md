@@ -21,6 +21,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
+* [Charcoal](https://github.com/somebody1234/Charcoal) - Concise language for sketching ASCII art.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
 * [Chicken](https://esolangs.org/wiki/Chicken) - Only 1 valid symbol: 'chicken'.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
