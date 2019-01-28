@@ -54,6 +54,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [DM's Esoteric Programming Languages](http://www.dangermouse.net/esoteric) - List of esoteric languages and algorithms written by dangermouse.
 * [Esofiles](https://github.com/graue/esofiles) - The Esoteric Files Archive, an archive of implementations of esoteric programming languages and examples.
 * [Esolang](https://esolangs.org) - Wiki of esoteric programming languages and related Resources.
+* [Esoteric Codes](https://esoteric.codes) - Articles and documents collection.
 * [Rosettacode](http://rosettacode.org/wiki/Rosetta_Code) - Provides examples in different languages, including esoteric languages.
 * [Wikipedia/Esoteric programming languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) - Wikipedia list of esoteric languages.
 * [On the Turing Completeness Of MS PowerPoint](http://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf) - Turing Machine on PowerPoint.
