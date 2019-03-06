@@ -22,6 +22,7 @@ Please ensure your pull request adheres to the following guidelines:
 * Additions of your own languages are welcome (if they are awesome and esoteric).
 * All links should refer to the original or most relevant web/implementation of the language.
 * The link must refer to the original author, documentation or resource of the language if possible.
+* The suggestion should be an issue with the reasons why this language is esoteric (and awesome).
 
 ## Resources and articles
 * Resources must be related to esoteric languages.
