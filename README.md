@@ -45,6 +45,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [Unary](https://esolangs.org/wiki/Unary) - Brainfuck-based language where all the commands are 0.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
+* [Vigil](https://github.com/munificent/vigil) - Only Vigil is truly vigilant about not allowing code that fails to pass programmatic specifications.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - Use only white-characters (space, tabs and newlines).
 * [Z](https://esolangs.org/wiki/Z) - Use only the letter z.
