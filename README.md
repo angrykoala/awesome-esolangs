@@ -37,6 +37,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Malbolge](http://www.lscheffer.com/malbolge.shtml) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
 * [Omgrofl](https://esolangs.org/wiki/Omgrofl) - Syntax resembling Internet slang.
 * [Ook!](http://www.dangermouse.net/esoteric/ook.html) - Brainfuck-based language, where the commands are orangutan words.
+* [Orca](https://hundredrabbits.itch.io/orca) - Livecoding environment to quickly create procedural audio sequencers.
 * [reMorse](http://esolangs.org/wiki/reMorse) - Morse-styled language.
 * [Rockstar](https://github.com/dylanbeattie/rockstar) - Designed for creating computer programs that are also song lyrics.
 * [Piet](http://www.dangermouse.net/esoteric/piet.html) -  Language in which programs look like abstract paintings using colors as code. Named after Piet Mondrian.
