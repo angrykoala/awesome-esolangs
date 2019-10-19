@@ -64,7 +64,8 @@ Curated list of awesome esoteric programming languages and resources.
 ## Articles
 
 * [Let's Build a Basic Interpreter (Ruslan's Blog)](https://ruslanspivak.com/lsbasi-part1) - Series of articles explaining the basics of compilers and interpreters and how to build one.
-* [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will) - A post by Yevgeniy Brikman describing different programming paradigms that are not commonly applied.
+* [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will) - Post by Yevgeniy Brikman describing different programming paradigms that are not commonly applied.
+* [The Fun (and Madness) of Esoteric Programming Languages](https://tomassetti.me/discovering-arcane-world-esoteric-programming-languages) - Straightforward introduction to esoteric languages with examples.
 
 ## Community
 
