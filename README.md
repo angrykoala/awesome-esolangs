@@ -33,6 +33,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
 * [INTERCAL](http://www.catb.org/~esr/intercal/) - Parody language intended to be completely different from other languages.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
+* [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
 * [LolCode](http://lolcode.org) - Language with keywords based on the lolcat meme expressions.
 * [Malbolge](http://www.lscheffer.com/malbolge.shtml) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
 * [Omgrofl](https://esolangs.org/wiki/Omgrofl) - Syntax resembling Internet slang.
