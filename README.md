@@ -46,6 +46,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
 * [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [Unary](https://esolangs.org/wiki/Unary) - Brainfuck-based language where all the commands are 0.
+* [Unlambda](http://www.madore.org/~david/programs/unlambda) - Obfuscated functional programming.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
 * [Vigil](https://github.com/munificent/vigil) - Only Vigil is truly vigilant about not allowing code that fails to pass programmatic specifications.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
