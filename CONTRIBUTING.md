@@ -15,6 +15,7 @@ Please ensure your pull request adheres to the following guidelines:
 * The link must be a direct link, and not shortened, proxy or redirection.
 * The link MUST be available (dead links will be removed or changed).
 * Check the markdown syntax is correct and properly displayed in GitHub.
+* Check format with awesome-lint (run `npx awesome-lint`)
 
 ## Languages, Algorithms and Others
 * Suggestions should be documented, even if no implementation exists.
