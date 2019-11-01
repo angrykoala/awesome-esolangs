@@ -58,7 +58,7 @@ Curated list of awesome esoteric programming languages and resources.
 ## Algorithms
 
 * [πfs](https://github.com/philipl/pifs) - Pi-based storage system, store your data by searching a matching sequence in pi.
-* [Stacksort](https://gkoberger.github.io/stacksort) - Sorts a list by searching answers in stackoverflow and executing code snippets until is sorted.
+* [Stacksort](https://gkoberger.github.io/stacksort) - Sorts a list by searching answers in Stack Overflow and executing code snippets until is sorted.
 
 ## Others
 
