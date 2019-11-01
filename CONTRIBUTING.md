@@ -16,13 +16,13 @@ Please ensure your pull request adheres to the following guidelines:
 * The link MUST be available (dead links will be removed or changed).
 * Check the markdown syntax is correct and properly displayed in GitHub.
 
-## Languages
-* Suggested languages should be documented, even if the implementation doesn't exists.
-* Only languages considered esoteric are accepted (I'm looking at you, Haskell).
-* Additions of your own languages are welcome (if they are awesome and esoteric).
-* All links should refer to the original or most relevant web/implementation of the language.
+## Languages, Algorithms and Others
+* Suggestions should be documented, even if no implementation exists.
+* Only languages widely considered esoteric are accepted.
+* Additions of your own esoteric languages are welcome.
+* All links should refer to the original or most relevant web/implementation.
 * The link must refer to the original author, documentation or resource of the language if possible.
-* The suggestion should be an issue with the reasons why this language is esoteric (and awesome).
+* The suggestion should be an issue with the reasons why this language or algorithm is esoteric.
 
 ## Resources and articles
 * Resources must be related to esoteric languages.
