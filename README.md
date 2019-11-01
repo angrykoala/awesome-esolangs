@@ -11,6 +11,8 @@ Curated list of awesome esoteric programming languages and resources.
 
 ## Contents
 * [Languages](#languages)
+* [Algorithms](#algorithms)
+* [Others](#others)
 * [Resources](#resources)
 * [Articles](#articles)
 * [Community](#community)
@@ -53,6 +55,15 @@ Curated list of awesome esoteric programming languages and resources.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - Use only white-characters (space, tabs and newlines).
 * [Z](https://esolangs.org/wiki/Z) - Use only the letter z.
 
+## Algorithms
+
+* [πfs](https://github.com/philipl/pifs) - Pi-based storage system, store your data by searching a matching sequence in pi.
+* [Stacksort](https://gkoberger.github.io/stacksort) - Sorts a list by searching answers in stackoverflow and executing code snippets until is sorted.
+
+## Others
+
+* [Petrovich](http://www.dangermouse.net/esoteric/petrovich.html) - Operating System concept based on random actions and rewards/punishments.
+
 ## Resources
 
 * [DM's Esoteric Programming Languages](http://www.dangermouse.net/esoteric) - List of esoteric languages and algorithms written by dangermouse.
@@ -61,13 +72,14 @@ Curated list of awesome esoteric programming languages and resources.
 * [Esoteric Codes](https://esoteric.codes) - Articles and documents collection.
 * [Rosettacode](http://rosettacode.org/wiki/Rosetta_Code) - Provides examples in different languages, including esoteric languages.
 * [Wikipedia/Esoteric programming languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) - Wikipedia list of esoteric languages.
-* [On the Turing Completeness Of MS PowerPoint](http://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf) - Turing Machine on PowerPoint.
+* [Esolang List of ideas](https://esolangs.org/wiki/List_of_ideas) - Compilation of ideas for esoteric languages and related.
 
 ## Articles
 
 * [Let's Build a Basic Interpreter (Ruslan's Blog)](https://ruslanspivak.com/lsbasi-part1) - Series of articles explaining the basics of compilers and interpreters and how to build one.
 * [Six programming paradigms that will change how you think about coding](http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will) - Post by Yevgeniy Brikman describing different programming paradigms that are not commonly applied.
 * [The Fun (and Madness) of Esoteric Programming Languages](https://tomassetti.me/discovering-arcane-world-esoteric-programming-languages) - Straightforward introduction to esoteric languages with examples.
+* [On the Turing Completeness Of MS PowerPoint](http://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf) - Turing Machine on PowerPoint.
 
 ## Community
 
