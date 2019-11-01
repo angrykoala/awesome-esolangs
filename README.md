@@ -33,6 +33,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Enterprise™](https://github.com/joaomilho/Enterprise) - Non deterministic unnecessarily statically typed language.
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
 * [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
+* [Fugue](https://esolangs.org/wiki/Fugue) - Music as source code.
 * [INTERCAL](http://www.catb.org/~esr/intercal/) - Parody language intended to be completely different from other languages.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
 * [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
