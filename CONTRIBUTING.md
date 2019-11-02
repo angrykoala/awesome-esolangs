@@ -18,7 +18,7 @@ Please ensure your pull request adheres to the following guidelines:
 * Check format with awesome-lint (run `npx awesome-lint`)
 
 ## Languages, Algorithms and Others
-* Suggestions should be documented, even if no implementation exists.
+* Suggestions should be at least partially documented, even if no implementation exists.
 * Only languages widely considered esoteric are accepted.
 * Additions of your own esoteric languages are welcome.
 * All links should refer to the original or most relevant web/implementation.
