@@ -57,6 +57,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - Use only white-characters (space, tabs and newlines).
 * [Z](https://esolangs.org/wiki/Z) - Use only the letter z.
+* [ZOMBIE](https://www.dangermouse.net/esoteric/zombie.html) - Inherently evil multithreaded language designed for Necromancers.
 
 ## Algorithms
 
