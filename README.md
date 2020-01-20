@@ -34,6 +34,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
 * [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
 * [Fugue](https://esolangs.org/wiki/Fugue) - Music as source code.
+* [Golfscript](http://www.golfscript.com/golfscript) - Stack oriented, aimed at solving problems in as few keystrokes as possible.
 * [Haifu](http://www.dangermouse.net/esoteric/haifu.html) - Designed with the core values of Easter philosophy in mind.
 * [INTERCAL](http://www.catb.org/~esr/intercal/) - Parody language intended to be completely different from other languages.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
