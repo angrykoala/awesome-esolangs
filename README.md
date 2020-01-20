@@ -95,10 +95,5 @@ Curated list of awesome esoteric programming languages and resources.
 * [Freenode IRC Channel](http://webchat.freenode.net/?channels=esoteric&uio=d4) - The #esoteric IRC channel on freenode.
 * [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs.
 
-## License
 
-[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
-
-The content of this list is available under CC0 public domain dedication.
-
-Logo is used by permission of [David Morgan-Mar](http://www.dangermouse.net/esoteric/piet/samples.html)
+> Logo used with permission of [David Morgan-Mar](http://www.dangermouse.net/esoteric/piet/samples.html)
