@@ -20,6 +20,7 @@ Curated list of awesome esoteric programming languages and resources.
 
 ## Languages
 
+* [78](https://github.com/oatmealine/78) - A single-character command language focused around the numbers 7 and 8.
 * [Ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
