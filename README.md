@@ -23,7 +23,7 @@ Curated list of awesome esoteric programming languages and resources.
 
 * [78](https://github.com/oatmealine/78) - A single-character command language focused around the numbers 7 and 8.
 * [Ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
-* [ArnoldC](http://lhartikk.github.io/ArnoldC/) - Based on the best one-liners of Arnold Schwarzenegger.
+* [ArnoldC](http://lhartikk.github.io/ArnoldC) - Based on the best one-liners of Arnold Schwarzenegger.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [Charcoal](https://github.com/somebody1234/Charcoal) - Concise language for sketching ASCII art.
@@ -101,6 +101,7 @@ Curated list of awesome esoteric programming languages and resources.
 
 ## Community
 
+* [Anarchy Golf](http://golf.shinh.org) - Informal [golfing](https://en.wikipedia.org/wiki/Code_golf) problems server.
 * [Freenode IRC Channel](http://webchat.freenode.net/?channels=esoteric&uio=d4) - The #esoteric IRC channel on freenode.
 * [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs.
 
