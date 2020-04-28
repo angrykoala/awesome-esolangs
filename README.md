@@ -104,6 +104,7 @@ Curated list of awesome esoteric programming languages and resources.
 ## Community
 
 * [Anarchy Golf](http://golf.shinh.org) - Informal [golfing](https://en.wikipedia.org/wiki/Code_golf) problems server.
+* [Code Golf Stack Exchange](https://codegolf.stackexchange.com) - Golfing problems and answers.
 * [Freenode IRC Channel](http://webchat.freenode.net/?channels=esoteric&uio=d4) - The #esoteric IRC channel on freenode.
 * [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs.
 
