@@ -16,6 +16,7 @@ Please ensure your pull request adheres to the following guidelines:
 * The link MUST be available (dead links will be removed or changed).
 * Check the markdown syntax is correct and properly displayed in GitHub.
 * Check format with awesome-lint (run `npx awesome-lint`)
+* Check the name format to match the correct spelling of a language when possible (e.g. `reMorse` :heavy_check_mark: instead of `Remorse` :x:)
 
 ## Languages, Algorithms and Others
 * Suggestions should be at least partially documented, even if no implementation exists.
