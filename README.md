@@ -58,7 +58,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Shakespeare](http://shakespearelang.sourceforge.net) - Language where the code appear to be Shakespearean plays.
 * [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
 * [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
-* [TrumpScript](https://github.com/samshadwell/TrumpScript) - Based on Trump common words.
+* [TrumpScript](https://github.com/samshadwell/TrumpScript) - Make Python great again.
 * [Turtle](https://github.com/TypeMonkey/Turtle) - Uses long-term storage for memory use.
 * [Unary](https://esolangs.org/wiki/Unary) - Brainfuck-based language where all the commands are 0.
 * [Unlambda](http://www.madore.org/~david/programs/unlambda) - Obfuscated functional programming.
