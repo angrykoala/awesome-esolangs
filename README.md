@@ -41,6 +41,7 @@ Curated list of awesome esoteric programming languages and resources.
 * [Golfscript](http://www.golfscript.com/golfscript) - Stack oriented, aimed at solving problems in as few keystrokes as possible.
 * [Haifu](http://www.dangermouse.net/esoteric/haifu.html) - Designed with the core values of Easter philosophy in mind.
 * [INTERCAL](http://www.catb.org/~esr/intercal) - Parody language intended to be completely different from other languages.
+* [Japt](https://github.com/ETHproductions/japt) - Reduced JavaScript for [golfing](https://en.wikipedia.org/wiki/Code_golf).
 * [Jelly](https://github.com/DennisMitchell/jellylanguage) - [Golfing](https://en.wikipedia.org/wiki/Code_golf) language based on J.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
 * [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
