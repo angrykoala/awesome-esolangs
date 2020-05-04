@@ -55,7 +55,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Rockstar](https://github.com/dylanbeattie/rockstar) - Designed for creating computer programs that are also song lyrics.
 * [Piet](http://www.dangermouse.net/esoteric/piet.html) -  Language in which programs look like abstract paintings using colors as code. Named after Piet Mondrian.
 * [Shakespeare](http://shakespearelang.sourceforge.net) - Language where the code appear to be Shakespearean plays.
-* [Spooky](https://spookylang.com) - The scariest programming language.  :jack_o_lantern: :skull: 
+* [Spooky](https://spookylang.com) - The scariest programming language  :jack_o_lantern: :skull:.
 * [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
 * [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [TrumpScript](https://github.com/samshadwell/TrumpScript) - Make Python great again.
