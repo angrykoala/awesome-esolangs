@@ -23,7 +23,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [1+](https://esolangs.org/wiki/1%2B) - A surprisingly user-friendly language with a highly-limited instruction set.
 * [78](https://github.com/oatmealine/78) - A single-character command language focused around the numbers 7 and 8.
 * [ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
-* [AlmostBinary](https://github.com/wsdt/AlmostBinary) - Code in platform-independent binary. Code once, run anywhere.
+* [AlmostBinary](https://github.com/wsdt/AlmostBinary) - Code in binary and run on any platform.
 * [ArnoldC](http://lhartikk.github.io/ArnoldC) - Based on the best one-liners of Arnold Schwarzenegger.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
