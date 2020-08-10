@@ -32,7 +32,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Chicken](https://esolangs.org/wiki/Chicken) - Only 1 valid symbol: 'chicken'.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
-* [Dots](https://github.com/josconno/dots) - A turing-complete language with only one symbol: ".".
+* [Dots](https://github.com/josconno/dots) - A turing-complete language using "." symbol only.
 * [Emojicode](http://www.emojicode.org) - Full-blown programming language consisting of emojis.
 * [Enterprise™](https://github.com/joaomilho/Enterprise) - Non deterministic unnecessarily statically typed language.
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
@@ -42,8 +42,8 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Golfscript](http://www.golfscript.com/golfscript) - Stack oriented, aimed at solving problems in as few keystrokes as possible.
 * [Haifu](http://www.dangermouse.net/esoteric/haifu.html) - Designed with the core values of Easter philosophy in mind.
 * [INTERCAL](http://www.catb.org/~esr/intercal) - Parody language intended to be completely different from other languages.
-* [Japt](https://github.com/ETHproductions/japt) - Reduced JavaScript for [golfing](https://en.wikipedia.org/wiki/Code_golf).
-* [Jelly](https://github.com/DennisMitchell/jellylanguage) - [Golfing](https://en.wikipedia.org/wiki/Code_golf) language based on J.
+* [Japt](https://github.com/ETHproductions/japt) - Reduced JavaScript for golfing.
+* [Jelly](https://github.com/DennisMitchell/jellylanguage) - Golfing language based on J.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
 * [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
 * [legit](https://morr.cc/legit) - Programs definedentirely by the graph of the git repository instead of its contents.
