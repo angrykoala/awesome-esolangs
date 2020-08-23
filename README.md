@@ -26,6 +26,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [AlmostBinary](https://github.com/wsdt/AlmostBinary) - Code in binary and run on any platform.
 * [ArnoldC](http://lhartikk.github.io/ArnoldC) - Based on the best one-liners of Arnold Schwarzenegger.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
+* [Brackets](https://github.com/kvbc/brackets) - Language made of brackets, a lot of brackets.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [Charcoal](https://github.com/somebody1234/Charcoal) - Concise language for sketching ASCII art.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
