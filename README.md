@@ -61,6 +61,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Shakespeare](http://shakespearelang.sourceforge.net) - Language where the code appear to be Shakespearean plays.
 * [Spooky](https://spookylang.com) - The scariest programming language  :jack_o_lantern: :skull:.
 * [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
+* [Technologic](https://esolangs.org/wiki/Technologic) - Language in which programs look like the lyrics to the Daft Punk song Technologic.
 * [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [Tru](https://github.com/sungwoncho/tru) - A stack-based language with prefix-free brackets.
 * [TrumpScript](https://github.com/samshadwell/TrumpScript) - Make Python great again.
