@@ -47,7 +47,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Jelly](https://github.com/DennisMitchell/jellylanguage) - Golfing language based on J.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
 * [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
-* [legit](https://morr.cc/legit) - Programs definedentirely by the graph of the git repository instead of its contents.
+* [legit](https://morr.cc/legit) - Programs defined entirely by the graph of the git repository instead of its contents.
 * [LolCode](http://lolcode.org) - Language with keywords based on the lolcat meme expressions.
 * [Malbolge](http://www.lscheffer.com/malbolge.shtml) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
 * [Monicelli](https://github.com/esseks/monicelli) - Programming using Italian-like gibberish.
