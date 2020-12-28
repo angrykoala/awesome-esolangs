@@ -28,6 +28,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brackets](https://github.com/kvbc/brackets) - Language made of brackets, a lot of brackets.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
+* [C Flat](https://github.com/NicksterSand/Cflat) - Musical language focused on expression.
 * [Charcoal](https://github.com/somebody1234/Charcoal) - Concise language for sketching ASCII art.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
 * [Chicken](https://esolangs.org/wiki/Chicken) - Only 1 valid symbol: 'chicken'.
