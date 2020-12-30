@@ -71,7 +71,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Unlambda](http://www.madore.org/~david/programs/unlambda) - Obfuscated functional programming.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
 * [Vigil](https://github.com/munificent/vigil) - Only Vigil is truly vigilant about not allowing code that fails to pass programmatic specifications.
-* [Watson](https://github.com/genkami/watson) - A stack-based Turing-incomplete language for configuration files.
+* [Watson](https://github.com/genkami/watson) - Stack-based Turing-incomplete configuration files.
 * [文言 (Wenyan)](http://wenyan-lang.lingdong.works) - Closely follows the grammar and tone of classical Chinese literature.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - Use only white-characters (space, tabs and newlines).
