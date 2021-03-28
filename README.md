@@ -40,12 +40,14 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
 * [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
 * [Folders](https://github.com/rottytooth/Folders) - Code written with folders.
+* [FreakC](http://github.com/nguyenphuminh/FreakC) - Full-blown programming language with NSFW contents and memes.
 * [Fugue](https://esolangs.org/wiki/Fugue) - Music as source code.
 * [Golfscript](http://www.golfscript.com/golfscript) - Stack oriented, aimed at solving problems in as few keystrokes as possible.
 * [Haifu](http://www.dangermouse.net/esoteric/haifu.html) - Designed with the core values of Easter philosophy in mind.
 * [INTERCAL](http://www.catb.org/~esr/intercal) - Parody language intended to be completely different from other languages.
 * [Japt](https://github.com/ETHproductions/japt) - Reduced JavaScript for golfing.
 * [Jelly](https://github.com/DennisMitchell/jellylanguage) - Golfing language based on J.
+* [JellyScript](https://github.com/nguyenphuminh/Jellyscript) - Brainfuck-based language but with delicious jelly
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
 * [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
 * [legit](https://morr.cc/legit) - Programs defined entirely by the graph of the git repository instead of its contents.
