@@ -39,6 +39,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Enterprise™](https://github.com/joaomilho/Enterprise) - Non deterministic unnecessarily statically typed language.
 * [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
 * [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
+* [FlipJump](https://github.com/tomhea/flip-jump) - 1 instruction: Flip a bit, then Jump. The simplest OISC.
 * [Folders](https://github.com/rottytooth/Folders) - Code written with folders.
 * [FreakC](https://github.com/FreakC-Foundation/FreakC) - Full-blown programming language with NSFW contents and memes.
 * [Fugue](https://esolangs.org/wiki/Fugue) - Music as source code.
