@@ -25,6 +25,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
 * [AlmostBinary](https://github.com/wsdt/AlmostBinary) - Code in binary and run on any platform.
 * [ArnoldC](http://lhartikk.github.io/ArnoldC) - Based on the best one-liners of Arnold Schwarzenegger.
+* [Ark](https://esolangs.org/wiki/Ark) - A language that aims to be useful, but isn't.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Brackets](https://github.com/kvbc/brackets) - Language made of brackets, a lot of brackets.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
