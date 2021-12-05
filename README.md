@@ -37,14 +37,14 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Dots](https://github.com/josconno/dots) - A turing-complete language using "." symbol only.
 * [Emojicode](http://www.emojicode.org) - Full-blown programming language consisting of emojis.
 * [Enterprise™](https://github.com/joaomilho/Enterprise) - Non deterministic unnecessarily statically typed language.
-* [False](http://strlen.com/false-language) - Heavily offuscated language with a minimal implementation.
+* [False](http://strlen.com/false-language) - Heavily obfuscated language with a minimal implementation.
 * [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
 * [FlipJump](https://github.com/tomhea/flip-jump) - 1 instruction: Flip a bit, then Jump. The simplest OISC.
 * [Folders](https://github.com/rottytooth/Folders) - Code written with folders.
 * [FreakC](https://github.com/FreakC-Foundation/FreakC) - Full-blown programming language with NSFW contents and memes.
 * [Fugue](https://esolangs.org/wiki/Fugue) - Music as source code.
 * [Golfscript](http://www.golfscript.com/golfscript) - Stack oriented, aimed at solving problems in as few keystrokes as possible.
-* [Haifu](http://www.dangermouse.net/esoteric/haifu.html) - Designed with the core values of Easter philosophy in mind.
+* [Haifu](http://www.dangermouse.net/esoteric/haifu.html) - Designed with the core values of Eastern philosophy in mind.
 * [INTERCAL](http://www.catb.org/~esr/intercal) - Parody language intended to be completely different from other languages.
 * [Japt](https://github.com/ETHproductions/japt) - Reduced JavaScript for golfing.
 * [Jelly](https://github.com/DennisMitchell/jellylanguage) - Golfing language based on J.
