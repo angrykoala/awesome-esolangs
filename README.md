@@ -90,9 +90,10 @@ Curated list of awesome esoteric programming languages, resources and related pr
 
 ## Others
 
-* [asmbf](https://github.com/KrzysztofSzewczyk/asmbf) - The only true brainfuck assembler toolkit.
+* [asmbf](https://github.com/kspalaiologos/asmbf) - The only true brainfuck assembler toolkit.
 * [CSS-only-chat](https://github.com/kkuchta/css-only-chat) - A truly monstrous async web chat using no JS whatsoever on the frontend.
 * [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) - Simple FizzBuzz game implemented under the most strict enterprise standards.
+* [MalbolgeLisp](https://github.com/kspalaiologos/malbolge-lisp) - A Lisp interpreter in Malbolge Unshackled.
 * [NoCode](https://github.com/kelseyhightower/nocode) - Secure and reliable applications. Write nothing; deploy nowhere.
 * [Petrovich](http://www.dangermouse.net/esoteric/petrovich.html) - Operating System concept based on random actions and rewards/punishments.
 * [vapor.js](https://github.com/madrobby/vapor.js) - The World's Smallest & Fastest JavaScript Library.
@@ -120,6 +121,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Code Golf Stack Exchange](https://codegolf.stackexchange.com) - Golfing problems and answers.
 * [Freenode IRC Channel](http://webchat.freenode.net/?channels=esoteric&uio=d4) - The #esoteric IRC channel on freenode.
 * [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs.
+* [Esolangs Discord Server](https://discord.gg/SdFJQmd4QJ) - A Discord community about esoteric languages.
 
 
 > Logo used with permission of [David Morgan-Mar](http://www.dangermouse.net/esoteric/piet/samples.html)
