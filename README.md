@@ -35,7 +35,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
 * [Dots](https://github.com/josconno/dots) - A turing-complete language using "." symbol only.
-* [Electra](https://github.com/DolphyWind/Electra-Lang) - Electra lets you code like an electrician.
+* [Electra](https://github.com/DolphyWind/Electra-Lang) - Code like an electrician.
 * [Emojicode](http://www.emojicode.org) - Full-blown programming language consisting of emojis.
 * [Enterprise™](https://github.com/joaomilho/Enterprise) - Non deterministic unnecessarily statically typed language.
 * [False](http://strlen.com/false-language) - Heavily obfuscated language with a minimal implementation.
