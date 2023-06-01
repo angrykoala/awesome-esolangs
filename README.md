@@ -33,6 +33,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
 * [Chicken](https://esolangs.org/wiki/Chicken) - Only 1 valid symbol: 'chicken'.
 * [ChuckScript](https://github.com/angrykoala/chuckscript) - Unary-based language, where the code is a single number.
+* [COW](https://esolangs.org/wiki/COW) - Brainfuck variant using twelve variations of *moos* as instructions.
 * [DNA#](https://esolangs.org/wiki/DNA-Sharp) - Language based on the structure of the DNA.
 * [Dots](https://github.com/josconno/dots) - A turing-complete language using "." symbol only.
 * [Electra](https://github.com/DolphyWind/Electra-Lang) - Code like an electrician.
