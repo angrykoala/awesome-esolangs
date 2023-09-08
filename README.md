@@ -20,6 +20,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 
 ## Languages
 
+* [><>](https://esolangs.org/wiki/fish) - A stack-based 2d language with support for reflection.
 * [1+](https://esolangs.org/wiki/1%2B) - A surprisingly user-friendly language with a highly-limited instruction set.
 * [78](https://github.com/oatmealine/78) - A single-character command language focused around the numbers 7 and 8.
 * [ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
@@ -29,6 +30,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Brackets](https://github.com/kvbc/brackets) - Language made of brackets, a lot of brackets.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [C Flat](https://github.com/NicksterSand/Cflat) - Musical language focused on sound rather than notation with creative freedom in mind.
+* [CellTail](https://github.com/mousetail/celltail) - A 1d celular automata based language, includes an online interpreter.
 * [Charcoal](https://github.com/somebody1234/Charcoal) - Concise language for sketching ASCII art.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
 * [Chicken](https://esolangs.org/wiki/Chicken) - Only 1 valid symbol: 'chicken'.
