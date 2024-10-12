@@ -20,6 +20,7 @@ Curated list of awesome esoteric programming languages and resources.
 
 * [Ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
+* [Brain](https://github.com/brain-labs/brain) - An esoteric programming language compiler on top of LLVM based on Brainfuck.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [Charcoal](https://github.com/somebody1234/Charcoal) - Concise language for sketching ASCII art.
 * [Chef](http://www.dangermouse.net/esoteric/chef.html) - Programs that look like cooking recipes.
