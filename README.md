@@ -72,6 +72,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Rockstar](https://github.com/dylanbeattie/rockstar) - Designed for creating computer programs that are also song lyrics.
 * [Shakespeare](http://shakespearelang.sourceforge.net) - Language where the code appear to be Shakespearean plays.
 * [Spooky](https://spookylang.com) - The scariest programming language  :jack_o_lantern: :skull:.
+* [Subleq](https://esolangs.org/wiki/Subleq) - Subleq refers to a kind of OISC where the one instruction is "SUBtract and branch if Less-than or EQual to zero", conventionally abbreviated to subleq.
 * [Suzy](https://github.com/gvx/suzy) - 3D language inspired in Befunge.
 * [Technologic](https://esolangs.org/wiki/Technologic) - Language in which programs look like the lyrics to the Daft Punk song Technologic.
 * [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
