@@ -27,6 +27,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [AlmostBinary](https://github.com/wsdt/AlmostBinary) - Code in binary and run on any platform.
 * [ArnoldC](http://lhartikk.github.io/ArnoldC) - Based on the best one-liners of Arnold Schwarzenegger.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
+* [BIRL](https://esolangs.org/wiki/BIRL) - BIRL (Bambam's "It's show time" Recursive Language) is an esoteric programming language inspired by viral meme.
 * [Brain](https://github.com/brain-labs/brain) - An esoteric programming language compiler on top of LLVM based on Brainfuck.
 * [Brackets](https://github.com/kvbc/brackets) - Language made of brackets, a lot of brackets.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
