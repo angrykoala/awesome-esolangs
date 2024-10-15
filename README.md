@@ -16,6 +16,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Resources](#resources)
 * [Articles](#articles)
 * [Community](#community)
+* [Books](#books)
 
 
 ## Languages
@@ -129,5 +130,8 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Reddit Esolangs](https://www.reddit.com/r/esolangs) - Reddit community on esolangs.
 * [Esolangs Discord Server](https://discord.gg/SdFJQmd4QJ) - A Discord community about esoteric languages.
 
+## Books
+
+[Strange Code: Esoteric Languages That Make Programming Fun](https://www.amazon.co.uk/Strange-Code-Esoteric-Languages-Programming-ebook/dp/B09WK69BN6) - Strange Code begins by exploring the roots of programming, covering early concepts like Turing machines and Turing completeness that shaped modern languages. It then delves into 'atypical' programming languages, showcasing the unconventional thinking behind these unique coding approaches.
 
 > Logo used with permission of [David Morgan-Mar](http://www.dangermouse.net/esoteric/piet/samples.html)
