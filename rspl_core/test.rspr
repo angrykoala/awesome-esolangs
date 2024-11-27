@@ -1,0 +1,11 @@
+x = 10
+y = 11
+
+intrare x
+intrare y
+
+daca x > y {
+    afiseaza "x e mai mare"
+} altfel {
+    afiseaza "y e mai mare"
+}

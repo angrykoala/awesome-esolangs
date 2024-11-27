@@ -1,0 +1,1126 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> program
+Rule 1     program -> statement
+Rule 2     program -> statement program
+Rule 3     statement -> ID EGAL expression
+Rule 4     statement -> AFISEAZA expression
+Rule 5     statement -> INTRARE ID
+Rule 6     statement -> DACA expression block
+Rule 7     statement -> DACA expression block ALTEL block
+Rule 8     block -> ACOLADA_STANGA program ACOLADA_DREAPTA
+Rule 9     expression -> expression PLUS expression
+Rule 10    expression -> expression MINUS expression
+Rule 11    expression -> expression INMULTESTE expression
+Rule 12    expression -> expression IMPARTE expression
+Rule 13    expression -> expression MARE expression
+Rule 14    expression -> expression MIC expression
+Rule 15    expression -> expression SI expression
+Rule 16    expression -> expression SAU expression
+Rule 17    expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+Rule 18    expression -> NUMAR
+Rule 19    expression -> STRING
+Rule 20    expression -> ID
+
+Terminals, with rules where they appear
+
+ACOLADA_DREAPTA      : 8
+ACOLADA_STANGA       : 8
+AFISEAZA             : 4
+ALTEL                : 7
+DACA                 : 6 7
+EGAL                 : 3
+ID                   : 3 5 20
+IMPARTE              : 12
+INMULTESTE           : 11
+INTRARE              : 5
+MARE                 : 13
+MIC                  : 14
+MINUS                : 10
+NUMAR                : 18
+PARANTEZA_DREAPTA    : 17
+PARANTEZA_STANGA     : 17
+PLUS                 : 9
+SAU                  : 16
+SI                   : 15
+STRING               : 19
+error                : 
+
+Nonterminals, with rules where they appear
+
+block                : 6 7 7
+expression           : 3 4 6 7 9 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17
+program              : 2 8 0
+statement            : 1 2
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . program
+    (1) program -> . statement
+    (2) program -> . statement program
+    (3) statement -> . ID EGAL expression
+    (4) statement -> . AFISEAZA expression
+    (5) statement -> . INTRARE ID
+    (6) statement -> . DACA expression block
+    (7) statement -> . DACA expression block ALTEL block
+
+    ID              shift and go to state 3
+    AFISEAZA        shift and go to state 4
+    INTRARE         shift and go to state 5
+    DACA            shift and go to state 6
+
+    program                        shift and go to state 1
+    statement                      shift and go to state 2
+
+state 1
+
+    (0) S' -> program .
+
+
+
+state 2
+
+    (1) program -> statement .
+    (2) program -> statement . program
+    (1) program -> . statement
+    (2) program -> . statement program
+    (3) statement -> . ID EGAL expression
+    (4) statement -> . AFISEAZA expression
+    (5) statement -> . INTRARE ID
+    (6) statement -> . DACA expression block
+    (7) statement -> . DACA expression block ALTEL block
+
+    $end            reduce using rule 1 (program -> statement .)
+    ACOLADA_DREAPTA reduce using rule 1 (program -> statement .)
+    ID              shift and go to state 3
+    AFISEAZA        shift and go to state 4
+    INTRARE         shift and go to state 5
+    DACA            shift and go to state 6
+
+    statement                      shift and go to state 2
+    program                        shift and go to state 7
+
+state 3
+
+    (3) statement -> ID . EGAL expression
+
+    EGAL            shift and go to state 8
+
+
+state 4
+
+    (4) statement -> AFISEAZA . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 9
+
+state 5
+
+    (5) statement -> INTRARE . ID
+
+    ID              shift and go to state 14
+
+
+state 6
+
+    (6) statement -> DACA . expression block
+    (7) statement -> DACA . expression block ALTEL block
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 15
+
+state 7
+
+    (2) program -> statement program .
+
+    $end            reduce using rule 2 (program -> statement program .)
+    ACOLADA_DREAPTA reduce using rule 2 (program -> statement program .)
+
+
+state 8
+
+    (3) statement -> ID EGAL . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 16
+
+state 9
+
+    (4) statement -> AFISEAZA expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+    ID              reduce using rule 4 (statement -> AFISEAZA expression .)
+    AFISEAZA        reduce using rule 4 (statement -> AFISEAZA expression .)
+    INTRARE         reduce using rule 4 (statement -> AFISEAZA expression .)
+    DACA            reduce using rule 4 (statement -> AFISEAZA expression .)
+    $end            reduce using rule 4 (statement -> AFISEAZA expression .)
+    ACOLADA_DREAPTA reduce using rule 4 (statement -> AFISEAZA expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+
+state 10
+
+    (17) expression -> PARANTEZA_STANGA . expression PARANTEZA_DREAPTA
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 25
+
+state 11
+
+    (18) expression -> NUMAR .
+
+    PLUS            reduce using rule 18 (expression -> NUMAR .)
+    MINUS           reduce using rule 18 (expression -> NUMAR .)
+    INMULTESTE      reduce using rule 18 (expression -> NUMAR .)
+    IMPARTE         reduce using rule 18 (expression -> NUMAR .)
+    MARE            reduce using rule 18 (expression -> NUMAR .)
+    MIC             reduce using rule 18 (expression -> NUMAR .)
+    SI              reduce using rule 18 (expression -> NUMAR .)
+    SAU             reduce using rule 18 (expression -> NUMAR .)
+    ID              reduce using rule 18 (expression -> NUMAR .)
+    AFISEAZA        reduce using rule 18 (expression -> NUMAR .)
+    INTRARE         reduce using rule 18 (expression -> NUMAR .)
+    DACA            reduce using rule 18 (expression -> NUMAR .)
+    $end            reduce using rule 18 (expression -> NUMAR .)
+    ACOLADA_DREAPTA reduce using rule 18 (expression -> NUMAR .)
+    ACOLADA_STANGA  reduce using rule 18 (expression -> NUMAR .)
+    PARANTEZA_DREAPTA reduce using rule 18 (expression -> NUMAR .)
+
+
+state 12
+
+    (19) expression -> STRING .
+
+    PLUS            reduce using rule 19 (expression -> STRING .)
+    MINUS           reduce using rule 19 (expression -> STRING .)
+    INMULTESTE      reduce using rule 19 (expression -> STRING .)
+    IMPARTE         reduce using rule 19 (expression -> STRING .)
+    MARE            reduce using rule 19 (expression -> STRING .)
+    MIC             reduce using rule 19 (expression -> STRING .)
+    SI              reduce using rule 19 (expression -> STRING .)
+    SAU             reduce using rule 19 (expression -> STRING .)
+    ID              reduce using rule 19 (expression -> STRING .)
+    AFISEAZA        reduce using rule 19 (expression -> STRING .)
+    INTRARE         reduce using rule 19 (expression -> STRING .)
+    DACA            reduce using rule 19 (expression -> STRING .)
+    $end            reduce using rule 19 (expression -> STRING .)
+    ACOLADA_DREAPTA reduce using rule 19 (expression -> STRING .)
+    ACOLADA_STANGA  reduce using rule 19 (expression -> STRING .)
+    PARANTEZA_DREAPTA reduce using rule 19 (expression -> STRING .)
+
+
+state 13
+
+    (20) expression -> ID .
+
+    PLUS            reduce using rule 20 (expression -> ID .)
+    MINUS           reduce using rule 20 (expression -> ID .)
+    INMULTESTE      reduce using rule 20 (expression -> ID .)
+    IMPARTE         reduce using rule 20 (expression -> ID .)
+    MARE            reduce using rule 20 (expression -> ID .)
+    MIC             reduce using rule 20 (expression -> ID .)
+    SI              reduce using rule 20 (expression -> ID .)
+    SAU             reduce using rule 20 (expression -> ID .)
+    ID              reduce using rule 20 (expression -> ID .)
+    AFISEAZA        reduce using rule 20 (expression -> ID .)
+    INTRARE         reduce using rule 20 (expression -> ID .)
+    DACA            reduce using rule 20 (expression -> ID .)
+    $end            reduce using rule 20 (expression -> ID .)
+    ACOLADA_DREAPTA reduce using rule 20 (expression -> ID .)
+    ACOLADA_STANGA  reduce using rule 20 (expression -> ID .)
+    PARANTEZA_DREAPTA reduce using rule 20 (expression -> ID .)
+
+
+state 14
+
+    (5) statement -> INTRARE ID .
+
+    ID              reduce using rule 5 (statement -> INTRARE ID .)
+    AFISEAZA        reduce using rule 5 (statement -> INTRARE ID .)
+    INTRARE         reduce using rule 5 (statement -> INTRARE ID .)
+    DACA            reduce using rule 5 (statement -> INTRARE ID .)
+    $end            reduce using rule 5 (statement -> INTRARE ID .)
+    ACOLADA_DREAPTA reduce using rule 5 (statement -> INTRARE ID .)
+
+
+state 15
+
+    (6) statement -> DACA expression . block
+    (7) statement -> DACA expression . block ALTEL block
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+    (8) block -> . ACOLADA_STANGA program ACOLADA_DREAPTA
+
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+    ACOLADA_STANGA  shift and go to state 27
+
+    block                          shift and go to state 26
+
+state 16
+
+    (3) statement -> ID EGAL expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+    ID              reduce using rule 3 (statement -> ID EGAL expression .)
+    AFISEAZA        reduce using rule 3 (statement -> ID EGAL expression .)
+    INTRARE         reduce using rule 3 (statement -> ID EGAL expression .)
+    DACA            reduce using rule 3 (statement -> ID EGAL expression .)
+    $end            reduce using rule 3 (statement -> ID EGAL expression .)
+    ACOLADA_DREAPTA reduce using rule 3 (statement -> ID EGAL expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+
+state 17
+
+    (9) expression -> expression PLUS . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 28
+
+state 18
+
+    (10) expression -> expression MINUS . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 29
+
+state 19
+
+    (11) expression -> expression INMULTESTE . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 30
+
+state 20
+
+    (12) expression -> expression IMPARTE . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 31
+
+state 21
+
+    (13) expression -> expression MARE . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 32
+
+state 22
+
+    (14) expression -> expression MIC . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 33
+
+state 23
+
+    (15) expression -> expression SI . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 34
+
+state 24
+
+    (16) expression -> expression SAU . expression
+    (9) expression -> . expression PLUS expression
+    (10) expression -> . expression MINUS expression
+    (11) expression -> . expression INMULTESTE expression
+    (12) expression -> . expression IMPARTE expression
+    (13) expression -> . expression MARE expression
+    (14) expression -> . expression MIC expression
+    (15) expression -> . expression SI expression
+    (16) expression -> . expression SAU expression
+    (17) expression -> . PARANTEZA_STANGA expression PARANTEZA_DREAPTA
+    (18) expression -> . NUMAR
+    (19) expression -> . STRING
+    (20) expression -> . ID
+
+    PARANTEZA_STANGA shift and go to state 10
+    NUMAR           shift and go to state 11
+    STRING          shift and go to state 12
+    ID              shift and go to state 13
+
+    expression                     shift and go to state 35
+
+state 25
+
+    (17) expression -> PARANTEZA_STANGA expression . PARANTEZA_DREAPTA
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+    PARANTEZA_DREAPTA shift and go to state 36
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+
+state 26
+
+    (6) statement -> DACA expression block .
+    (7) statement -> DACA expression block . ALTEL block
+
+    ID              reduce using rule 6 (statement -> DACA expression block .)
+    AFISEAZA        reduce using rule 6 (statement -> DACA expression block .)
+    INTRARE         reduce using rule 6 (statement -> DACA expression block .)
+    DACA            reduce using rule 6 (statement -> DACA expression block .)
+    $end            reduce using rule 6 (statement -> DACA expression block .)
+    ACOLADA_DREAPTA reduce using rule 6 (statement -> DACA expression block .)
+    ALTEL           shift and go to state 37
+
+
+state 27
+
+    (8) block -> ACOLADA_STANGA . program ACOLADA_DREAPTA
+    (1) program -> . statement
+    (2) program -> . statement program
+    (3) statement -> . ID EGAL expression
+    (4) statement -> . AFISEAZA expression
+    (5) statement -> . INTRARE ID
+    (6) statement -> . DACA expression block
+    (7) statement -> . DACA expression block ALTEL block
+
+    ID              shift and go to state 3
+    AFISEAZA        shift and go to state 4
+    INTRARE         shift and go to state 5
+    DACA            shift and go to state 6
+
+    program                        shift and go to state 38
+    statement                      shift and go to state 2
+
+state 28
+
+    (9) expression -> expression PLUS expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 9 (expression -> expression PLUS expression .)
+    AFISEAZA        reduce using rule 9 (expression -> expression PLUS expression .)
+    INTRARE         reduce using rule 9 (expression -> expression PLUS expression .)
+    DACA            reduce using rule 9 (expression -> expression PLUS expression .)
+    $end            reduce using rule 9 (expression -> expression PLUS expression .)
+    ACOLADA_DREAPTA reduce using rule 9 (expression -> expression PLUS expression .)
+    ACOLADA_STANGA  reduce using rule 9 (expression -> expression PLUS expression .)
+    PARANTEZA_DREAPTA reduce using rule 9 (expression -> expression PLUS expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+  ! MINUS           [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+  ! INMULTESTE      [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+  ! IMPARTE         [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+  ! MARE            [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+  ! MIC             [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+  ! SI              [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+  ! SAU             [ reduce using rule 9 (expression -> expression PLUS expression .) ]
+
+
+state 29
+
+    (10) expression -> expression MINUS expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 10 (expression -> expression MINUS expression .)
+    AFISEAZA        reduce using rule 10 (expression -> expression MINUS expression .)
+    INTRARE         reduce using rule 10 (expression -> expression MINUS expression .)
+    DACA            reduce using rule 10 (expression -> expression MINUS expression .)
+    $end            reduce using rule 10 (expression -> expression MINUS expression .)
+    ACOLADA_DREAPTA reduce using rule 10 (expression -> expression MINUS expression .)
+    ACOLADA_STANGA  reduce using rule 10 (expression -> expression MINUS expression .)
+    PARANTEZA_DREAPTA reduce using rule 10 (expression -> expression MINUS expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+  ! MINUS           [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+  ! INMULTESTE      [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+  ! IMPARTE         [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+  ! MARE            [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+  ! MIC             [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+  ! SI              [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+  ! SAU             [ reduce using rule 10 (expression -> expression MINUS expression .) ]
+
+
+state 30
+
+    (11) expression -> expression INMULTESTE expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    AFISEAZA        reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    INTRARE         reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    DACA            reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    $end            reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    ACOLADA_DREAPTA reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    ACOLADA_STANGA  reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    PARANTEZA_DREAPTA reduce using rule 11 (expression -> expression INMULTESTE expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+  ! MINUS           [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+  ! INMULTESTE      [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+  ! IMPARTE         [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+  ! MARE            [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+  ! MIC             [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+  ! SI              [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+  ! SAU             [ reduce using rule 11 (expression -> expression INMULTESTE expression .) ]
+
+
+state 31
+
+    (12) expression -> expression IMPARTE expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 12 (expression -> expression IMPARTE expression .)
+    AFISEAZA        reduce using rule 12 (expression -> expression IMPARTE expression .)
+    INTRARE         reduce using rule 12 (expression -> expression IMPARTE expression .)
+    DACA            reduce using rule 12 (expression -> expression IMPARTE expression .)
+    $end            reduce using rule 12 (expression -> expression IMPARTE expression .)
+    ACOLADA_DREAPTA reduce using rule 12 (expression -> expression IMPARTE expression .)
+    ACOLADA_STANGA  reduce using rule 12 (expression -> expression IMPARTE expression .)
+    PARANTEZA_DREAPTA reduce using rule 12 (expression -> expression IMPARTE expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+  ! MINUS           [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+  ! INMULTESTE      [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+  ! IMPARTE         [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+  ! MARE            [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+  ! MIC             [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+  ! SI              [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+  ! SAU             [ reduce using rule 12 (expression -> expression IMPARTE expression .) ]
+
+
+state 32
+
+    (13) expression -> expression MARE expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 13 (expression -> expression MARE expression .)
+    AFISEAZA        reduce using rule 13 (expression -> expression MARE expression .)
+    INTRARE         reduce using rule 13 (expression -> expression MARE expression .)
+    DACA            reduce using rule 13 (expression -> expression MARE expression .)
+    $end            reduce using rule 13 (expression -> expression MARE expression .)
+    ACOLADA_DREAPTA reduce using rule 13 (expression -> expression MARE expression .)
+    ACOLADA_STANGA  reduce using rule 13 (expression -> expression MARE expression .)
+    PARANTEZA_DREAPTA reduce using rule 13 (expression -> expression MARE expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 13 (expression -> expression MARE expression .) ]
+  ! MINUS           [ reduce using rule 13 (expression -> expression MARE expression .) ]
+  ! INMULTESTE      [ reduce using rule 13 (expression -> expression MARE expression .) ]
+  ! IMPARTE         [ reduce using rule 13 (expression -> expression MARE expression .) ]
+  ! MARE            [ reduce using rule 13 (expression -> expression MARE expression .) ]
+  ! MIC             [ reduce using rule 13 (expression -> expression MARE expression .) ]
+  ! SI              [ reduce using rule 13 (expression -> expression MARE expression .) ]
+  ! SAU             [ reduce using rule 13 (expression -> expression MARE expression .) ]
+
+
+state 33
+
+    (14) expression -> expression MIC expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 14 (expression -> expression MIC expression .)
+    AFISEAZA        reduce using rule 14 (expression -> expression MIC expression .)
+    INTRARE         reduce using rule 14 (expression -> expression MIC expression .)
+    DACA            reduce using rule 14 (expression -> expression MIC expression .)
+    $end            reduce using rule 14 (expression -> expression MIC expression .)
+    ACOLADA_DREAPTA reduce using rule 14 (expression -> expression MIC expression .)
+    ACOLADA_STANGA  reduce using rule 14 (expression -> expression MIC expression .)
+    PARANTEZA_DREAPTA reduce using rule 14 (expression -> expression MIC expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 14 (expression -> expression MIC expression .) ]
+  ! MINUS           [ reduce using rule 14 (expression -> expression MIC expression .) ]
+  ! INMULTESTE      [ reduce using rule 14 (expression -> expression MIC expression .) ]
+  ! IMPARTE         [ reduce using rule 14 (expression -> expression MIC expression .) ]
+  ! MARE            [ reduce using rule 14 (expression -> expression MIC expression .) ]
+  ! MIC             [ reduce using rule 14 (expression -> expression MIC expression .) ]
+  ! SI              [ reduce using rule 14 (expression -> expression MIC expression .) ]
+  ! SAU             [ reduce using rule 14 (expression -> expression MIC expression .) ]
+
+
+state 34
+
+    (15) expression -> expression SI expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 15 (expression -> expression SI expression .)
+    AFISEAZA        reduce using rule 15 (expression -> expression SI expression .)
+    INTRARE         reduce using rule 15 (expression -> expression SI expression .)
+    DACA            reduce using rule 15 (expression -> expression SI expression .)
+    $end            reduce using rule 15 (expression -> expression SI expression .)
+    ACOLADA_DREAPTA reduce using rule 15 (expression -> expression SI expression .)
+    ACOLADA_STANGA  reduce using rule 15 (expression -> expression SI expression .)
+    PARANTEZA_DREAPTA reduce using rule 15 (expression -> expression SI expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 15 (expression -> expression SI expression .) ]
+  ! MINUS           [ reduce using rule 15 (expression -> expression SI expression .) ]
+  ! INMULTESTE      [ reduce using rule 15 (expression -> expression SI expression .) ]
+  ! IMPARTE         [ reduce using rule 15 (expression -> expression SI expression .) ]
+  ! MARE            [ reduce using rule 15 (expression -> expression SI expression .) ]
+  ! MIC             [ reduce using rule 15 (expression -> expression SI expression .) ]
+  ! SI              [ reduce using rule 15 (expression -> expression SI expression .) ]
+  ! SAU             [ reduce using rule 15 (expression -> expression SI expression .) ]
+
+
+state 35
+
+    (16) expression -> expression SAU expression .
+    (9) expression -> expression . PLUS expression
+    (10) expression -> expression . MINUS expression
+    (11) expression -> expression . INMULTESTE expression
+    (12) expression -> expression . IMPARTE expression
+    (13) expression -> expression . MARE expression
+    (14) expression -> expression . MIC expression
+    (15) expression -> expression . SI expression
+    (16) expression -> expression . SAU expression
+
+  ! shift/reduce conflict for PLUS resolved as shift
+  ! shift/reduce conflict for MINUS resolved as shift
+  ! shift/reduce conflict for INMULTESTE resolved as shift
+  ! shift/reduce conflict for IMPARTE resolved as shift
+  ! shift/reduce conflict for MARE resolved as shift
+  ! shift/reduce conflict for MIC resolved as shift
+  ! shift/reduce conflict for SI resolved as shift
+  ! shift/reduce conflict for SAU resolved as shift
+    ID              reduce using rule 16 (expression -> expression SAU expression .)
+    AFISEAZA        reduce using rule 16 (expression -> expression SAU expression .)
+    INTRARE         reduce using rule 16 (expression -> expression SAU expression .)
+    DACA            reduce using rule 16 (expression -> expression SAU expression .)
+    $end            reduce using rule 16 (expression -> expression SAU expression .)
+    ACOLADA_DREAPTA reduce using rule 16 (expression -> expression SAU expression .)
+    ACOLADA_STANGA  reduce using rule 16 (expression -> expression SAU expression .)
+    PARANTEZA_DREAPTA reduce using rule 16 (expression -> expression SAU expression .)
+    PLUS            shift and go to state 17
+    MINUS           shift and go to state 18
+    INMULTESTE      shift and go to state 19
+    IMPARTE         shift and go to state 20
+    MARE            shift and go to state 21
+    MIC             shift and go to state 22
+    SI              shift and go to state 23
+    SAU             shift and go to state 24
+
+  ! PLUS            [ reduce using rule 16 (expression -> expression SAU expression .) ]
+  ! MINUS           [ reduce using rule 16 (expression -> expression SAU expression .) ]
+  ! INMULTESTE      [ reduce using rule 16 (expression -> expression SAU expression .) ]
+  ! IMPARTE         [ reduce using rule 16 (expression -> expression SAU expression .) ]
+  ! MARE            [ reduce using rule 16 (expression -> expression SAU expression .) ]
+  ! MIC             [ reduce using rule 16 (expression -> expression SAU expression .) ]
+  ! SI              [ reduce using rule 16 (expression -> expression SAU expression .) ]
+  ! SAU             [ reduce using rule 16 (expression -> expression SAU expression .) ]
+
+
+state 36
+
+    (17) expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .
+
+    PLUS            reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    MINUS           reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    INMULTESTE      reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    IMPARTE         reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    MARE            reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    MIC             reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    SI              reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    SAU             reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    ID              reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    AFISEAZA        reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    INTRARE         reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    DACA            reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    $end            reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    ACOLADA_DREAPTA reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    ACOLADA_STANGA  reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+    PARANTEZA_DREAPTA reduce using rule 17 (expression -> PARANTEZA_STANGA expression PARANTEZA_DREAPTA .)
+
+
+state 37
+
+    (7) statement -> DACA expression block ALTEL . block
+    (8) block -> . ACOLADA_STANGA program ACOLADA_DREAPTA
+
+    ACOLADA_STANGA  shift and go to state 27
+
+    block                          shift and go to state 39
+
+state 38
+
+    (8) block -> ACOLADA_STANGA program . ACOLADA_DREAPTA
+
+    ACOLADA_DREAPTA shift and go to state 40
+
+
+state 39
+
+    (7) statement -> DACA expression block ALTEL block .
+
+    ID              reduce using rule 7 (statement -> DACA expression block ALTEL block .)
+    AFISEAZA        reduce using rule 7 (statement -> DACA expression block ALTEL block .)
+    INTRARE         reduce using rule 7 (statement -> DACA expression block ALTEL block .)
+    DACA            reduce using rule 7 (statement -> DACA expression block ALTEL block .)
+    $end            reduce using rule 7 (statement -> DACA expression block ALTEL block .)
+    ACOLADA_DREAPTA reduce using rule 7 (statement -> DACA expression block ALTEL block .)
+
+
+state 40
+
+    (8) block -> ACOLADA_STANGA program ACOLADA_DREAPTA .
+
+    ALTEL           reduce using rule 8 (block -> ACOLADA_STANGA program ACOLADA_DREAPTA .)
+    ID              reduce using rule 8 (block -> ACOLADA_STANGA program ACOLADA_DREAPTA .)
+    AFISEAZA        reduce using rule 8 (block -> ACOLADA_STANGA program ACOLADA_DREAPTA .)
+    INTRARE         reduce using rule 8 (block -> ACOLADA_STANGA program ACOLADA_DREAPTA .)
+    DACA            reduce using rule 8 (block -> ACOLADA_STANGA program ACOLADA_DREAPTA .)
+    $end            reduce using rule 8 (block -> ACOLADA_STANGA program ACOLADA_DREAPTA .)
+    ACOLADA_DREAPTA reduce using rule 8 (block -> ACOLADA_STANGA program ACOLADA_DREAPTA .)
+
+WARNING: 
+WARNING: Conflicts:
+WARNING: 
+WARNING: shift/reduce conflict for PLUS in state 28 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 28 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 28 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 28 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 28 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 28 resolved as shift
+WARNING: shift/reduce conflict for SI in state 28 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 28 resolved as shift
+WARNING: shift/reduce conflict for PLUS in state 29 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 29 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 29 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 29 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 29 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 29 resolved as shift
+WARNING: shift/reduce conflict for SI in state 29 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 29 resolved as shift
+WARNING: shift/reduce conflict for PLUS in state 30 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 30 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 30 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 30 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 30 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 30 resolved as shift
+WARNING: shift/reduce conflict for SI in state 30 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 30 resolved as shift
+WARNING: shift/reduce conflict for PLUS in state 31 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 31 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 31 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 31 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 31 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 31 resolved as shift
+WARNING: shift/reduce conflict for SI in state 31 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 31 resolved as shift
+WARNING: shift/reduce conflict for PLUS in state 32 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 32 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 32 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 32 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 32 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 32 resolved as shift
+WARNING: shift/reduce conflict for SI in state 32 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 32 resolved as shift
+WARNING: shift/reduce conflict for PLUS in state 33 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 33 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 33 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 33 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 33 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 33 resolved as shift
+WARNING: shift/reduce conflict for SI in state 33 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 33 resolved as shift
+WARNING: shift/reduce conflict for PLUS in state 34 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 34 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 34 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 34 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 34 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 34 resolved as shift
+WARNING: shift/reduce conflict for SI in state 34 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 34 resolved as shift
+WARNING: shift/reduce conflict for PLUS in state 35 resolved as shift
+WARNING: shift/reduce conflict for MINUS in state 35 resolved as shift
+WARNING: shift/reduce conflict for INMULTESTE in state 35 resolved as shift
+WARNING: shift/reduce conflict for IMPARTE in state 35 resolved as shift
+WARNING: shift/reduce conflict for MARE in state 35 resolved as shift
+WARNING: shift/reduce conflict for MIC in state 35 resolved as shift
+WARNING: shift/reduce conflict for SI in state 35 resolved as shift
+WARNING: shift/reduce conflict for SAU in state 35 resolved as shift
