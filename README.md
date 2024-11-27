@@ -21,6 +21,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 ## Languages
 
 * [><>](https://esolangs.org/wiki/fish) - A stack-based 2d language with support for reflection.
+* [RSRPL](https://github.com/robert19066/Robert-s-Super-Romanian-Proggraming-Language) - A mixture of c++,python and romanian all within horrible limitations!
 * [1+](https://esolangs.org/wiki/1%2B) - A surprisingly user-friendly language with a highly-limited instruction set.
 * [78](https://github.com/oatmealine/78) - A single-character command language focused around the numbers 7 and 8.
 * [ajsone](https://www.quaxio.com/ajsone) - Language defined completely in JSON.
