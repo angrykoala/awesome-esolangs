@@ -58,6 +58,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [legit](https://morr.cc/legit) - Programs defined entirely by the graph of the git repository instead of its contents.
 * [LolCode](http://lolcode.org) - Language with keywords based on the lolcat meme expressions.
 * [Malbolge](https://esolangs.org/wiki/Malbolge) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
+* [Mindfck](https://github.com/angrykoala/mindfck) - High level language that transpiles to Brainfuck.
 * [Monicelli](https://github.com/esseks/monicelli) - Programming using Italian-like gibberish.
 * [Ni](https://github.com/DeybisMelendez/ni) - Brainfuck-based with more helpful instructions.
 * [Omgrofl](https://esolangs.org/wiki/Omgrofl) - Syntax resembling Internet slang.
