@@ -58,6 +58,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
 * [legit](https://morr.cc/legit) - Programs defined entirely by the graph of the git repository instead of its contents.
 * [LolCode](http://lolcode.org) - Language with keywords based on the lolcat meme expressions.
+* [LolRust](https://github.com/AdaInTheLab/lolrust) - Lolcat-flavored Rust that transpiles .meow files to valid Rust, keeping the type system and borrow checker.
 * [Malbolge](https://esolangs.org/wiki/Malbolge) - Named after the 8th level of hell, is designed to be as difficult as possible to program.
 * [Mindfck](https://github.com/angrykoala/mindfck) - High level language that transpiles to Brainfuck.
 * [Monicelli](https://github.com/esseks/monicelli) - Programming using Italian-like gibberish.
