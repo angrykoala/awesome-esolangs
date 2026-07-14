@@ -43,7 +43,8 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Emojicode](http://www.emojicode.org) - Full-blown programming language consisting of emojis.
 * [Enterprise™](https://github.com/joaomilho/Enterprise) - Non deterministic unnecessarily statically typed language.
 * [False](http://strlen.com/false-language) - Heavily obfuscated language with a minimal implementation.
-* [Fetlang](https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
+* [05AB1E](https://github.com/Adriandmen/05AB1E) - A concise stack-based golfing language with a 252-character code page.
+* [Fetlang](https://github.com/Property404/fetlang)(https://github.com/Property404/fetlang) - Designed such that source code looks like poorly written fetish erotica.
 * [FlipJump](https://github.com/tomhea/flip-jump) - 1 instruction: Flip a bit, then Jump. The simplest OISC.
 * [Folders](https://github.com/rottytooth/Folders) - Code written with folders.
 * [FreakC](https://github.com/FreakC-Foundation/FreakC) - Full-blown programming language with NSFW contents and memes.
@@ -53,7 +54,8 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [INTERCAL](http://www.catb.org/~esr/intercal) - Parody language intended to be completely different from other languages.
 * [Japt](https://github.com/ETHproductions/japt) - Reduced JavaScript for golfing.
 * [Jelly](https://github.com/DennisMitchell/jellylanguage) - Golfing language based on J.
-* [JellyScript](https://github.com/nguyenphuminh/Jellyscript) - Brainfuck-based with delicious jelly.
+* [Hexagony](https://github.com/m-ender/hexagony) - The first two-dimensional esolang on a hexagonal grid.
+* [JellyScript](https://github.com/nguyenphuminh/Jellyscript)(https://github.com/nguyenphuminh/Jellyscript) - Brainfuck-based with delicious jelly.
 * [JSFuck](https://github.com/aemkei/jsfuck) - Esoteric programming style based on the atomic parts of JavaScript.
 * [Lazy K](https://tromp.github.io/cl/lazy-k.html) - Minimal, turing-complete pure functional language without extra features.
 * [legit](https://morr.cc/legit) - Programs defined entirely by the graph of the git repository instead of its contents.
@@ -77,7 +79,8 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Thue](https://github.com/jcolag/Thue) - *Matrioshka* language based on nondeterministic string rewriting of a semi-Thue grammar.
 * [Tru](https://github.com/sungwoncho/tru) - A stack-based language with prefix-free brackets.
 * [Turtle](https://github.com/TypeMonkey/Turtle) - Uses long-term storage for memory use.
-* [Unary](https://esolangs.org/wiki/Unary) - Brainfuck-based language where all the commands are 0.
+* [Unispace](https://esolangs.org/wiki/Unispace) - Language where all instructions are written in whitespace characters with Unicode.
+* [Unary](https://esolangs.org/wiki/Unary)(https://esolangs.org/wiki/Unary) - Brainfuck-based language where all the commands are 0.
 * [Unary Except Every Zero Is Replaced with the Title of This Programming Language or, Alternately, Is Replaced with the Smallest Counter-Example to the Goldbach Conjecture. Compilers and Interpreters Only Have to Implement the Former Option](https://esolangs.org/wiki/Unary_Except_Every_Zero_Is_Replaced_with_the_Title_of_This_Programming_Language_or,_Alternately,_Is_Replaced_with_the_Smallest_Counter-Example_to_the_Goldbach_Conjecture._Compilers_and_Interpreters_Only_Have_to_Implement_the_Former_Option) - Derivative of Unary in which every zero is replaced with the title of the programming language being discussed.
 * [Unlambda](http://www.madore.org/~david/programs/unlambda) - Obfuscated functional programming.
 * [Velato](http://velato.net) - Language that uses MIDI files as source, programs are defined by the pitch and order of notes.
