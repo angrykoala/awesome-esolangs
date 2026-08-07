@@ -89,6 +89,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [WordLang](https://github.com/WilliamRagstad/WordLang) - A language based on meaning-like grammar that produces output.
 * [Z](https://esolangs.org/wiki/Z) - Use only the letter z.
 * [ZOMBIE](https://www.dangermouse.net/esoteric/zombie.html) - Inherently evil multithreaded language designed for Necromancers.
+* [Zonary](https://github.com/TasKin-tk/Zonary) - A minimalist binary-based esoteric programming language.
 
 ## Algorithms
 
