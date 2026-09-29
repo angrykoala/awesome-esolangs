@@ -86,6 +86,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [文言 (Wenyan)](http://wenyan-lang.lingdong.works) - Closely follows the grammar and tone of classical Chinese literature.
 * [Whenever](http://www.dangermouse.net/esoteric/whenever.html) - Language that does things whenever it wants.
 * [Whitespace](http://web.archive.org/web/20150623025348/http://compsoc.dur.ac.uk/whitespace) - Use only white-characters (space, tabs and newlines).
+* [WibuScript](https://github.com/Rafli161102/wibuscript) - Multi-dialect esoteric programming language and JavaScript transpiler based on otaku subculture.
 * [WordLang](https://github.com/WilliamRagstad/WordLang) - A language based on meaning-like grammar that produces output.
 * [Z](https://esolangs.org/wiki/Z) - Use only the letter z.
 * [ZOMBIE](https://www.dangermouse.net/esoteric/zombie.html) - Inherently evil multithreaded language designed for Necromancers.
