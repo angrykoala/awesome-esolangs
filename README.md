@@ -49,6 +49,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [FreakC](https://github.com/FreakC-Foundation/FreakC) - Full-blown programming language with NSFW contents and memes.
 * [Fugue](https://esolangs.org/wiki/Fugue) - Music as source code.
 * [Golfscript](http://www.golfscript.com/golfscript) - Stack oriented, aimed at solving problems in as few keystrokes as possible.
+* [Grid9](https://github.com/treymouledoux/Grid9) - Interpreted language based on a 3x3 grid of zeros and ones.
 * [Haifu](http://www.dangermouse.net/esoteric/haifu.html) - Designed with the core values of Eastern philosophy in mind.
 * [INTERCAL](http://www.catb.org/~esr/intercal) - Parody language intended to be completely different from other languages.
 * [Japt](https://github.com/ETHproductions/japt) - Reduced JavaScript for golfing.
