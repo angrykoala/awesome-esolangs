@@ -98,6 +98,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 ## Others
 
 * [asmbf](https://github.com/kspalaiologos/asmbf) - The only true brainfuck assembler toolkit.
+* [brnfck.chat](https://brnfck.chat) - LLMs written as single brainfuck programs, running in the browser.
 * [CSS-only-chat](https://github.com/kkuchta/css-only-chat) - A truly monstrous async web chat using no JS whatsoever on the frontend.
 * [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) - Simple FizzBuzz game implemented under the most strict enterprise standards.
 * [MalbolgeLisp](https://github.com/kspalaiologos/malbolge-lisp) - A Lisp interpreter in Malbolge Unshackled.
