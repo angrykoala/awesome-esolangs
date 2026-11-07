@@ -28,6 +28,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [ArnoldC](http://lhartikk.github.io/ArnoldC) - Based on the best one-liners of Arnold Schwarzenegger.
 * [Befunge](https://esolangs.org/wiki/Befunge) - Two-dimensional language.
 * [Benedictum](https://github.com/Beneking102/benedictum) - Latin-themed Brainfuck derivative where source code reads as prayer.
+* [bitcpy](https://github.com/BlueSheep3/bitcpy_lang) - A single instruction language with turing-completeness.
 * [Brackets](https://github.com/kvbc/brackets) - Language made of brackets, a lot of brackets.
 * [Brainfuck](https://esolangs.org/wiki/Brainfuck) - Minimalist language using only 8 single-character commands.
 * [C Flat](https://github.com/NicksterSand/Cflat) - Musical language focused on sound rather than notation with creative freedom in mind.
