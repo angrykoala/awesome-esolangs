@@ -62,6 +62,7 @@ Curated list of awesome esoteric programming languages, resources and related pr
 * [Mindfck](https://github.com/angrykoala/mindfck) - High level language that transpiles to Brainfuck.
 * [Monicelli](https://github.com/esseks/monicelli) - Programming using Italian-like gibberish.
 * [Ni](https://github.com/DeybisMelendez/ni) - Brainfuck-based with more helpful instructions.
+* [Obfusku](https://github.com/core-red-project/obfusku) - An experimental functional esolang where Unicode glyphs embody semantic meaning through a symbolic grammar.
 * [Omgrofl](https://esolangs.org/wiki/Omgrofl) - Syntax resembling Internet slang.
 * [Ook!](http://www.dangermouse.net/esoteric/ook.html) - Brainfuck-based language, where the commands are orangutan words.
 * [Orca](https://hundredrabbits.itch.io/orca) - Livecoding environment to quickly create procedural audio sequencers.
